@@ -10,7 +10,7 @@
   .btn-line {
     width: 28px;
     height: 3px;
-    background: #fff;
+    background: set-text-color($primary-color);
     margin: 0 0 5px 0;
     @include easeOut();
   }
@@ -90,7 +90,9 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/portrait.jpg');
+      background: url('../img/tmn.jpg');
+      background-size: cover;
+      background-position: center;
       border-radius: 50%;
       border: 3px solid $secondary-color;
     }
@@ -114,7 +116,7 @@
     text-decoration: none;
     font-size: 30px;
     font-weight: 300px;
-    color: #fff;
+    color: #set-text-color($primary-color);
     display: inline-block;
     position: relative;
     text-transform: uppercase;
