@@ -116,7 +116,7 @@
     text-decoration: none;
     font-size: 30px;
     font-weight: 300px;
-    color: #set-text-color($primary-color);
+    color: set-text-color($primary-color);
     display: inline-block;
     position: relative;
     text-transform: uppercase;
